@@ -53,5 +53,44 @@
     "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled",
     "microphone": "rdp_capture_enabled"
+  },
+  "samp": {
+    "samp_installed": false,
+    "status": "dependencies_ready",
+    "directx": "verified_x86_x64",
+    "netfx3": "Enabled",
+    "play_tested": false,
+    "gta_installed": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "directplay": "Enabled"
+  },
+  "game_environment": {
+    "hypervisor_present": true,
+    "windows_server": true,
+    "runner": "windows-latest",
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "play_tested": false
+  },
+  "games": {
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "roblox": {
+      "note": "Roblox mensyaratkan Windows 10/11 desktop 64-bit dan dukungan GPU. Windows Server runner bukan target yang didukung; memasang DX9 tidak mengubah ini.",
+      "status": "unsupported_environment"
+    },
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "status": "dependencies_ready",
+      "game_dir": null,
+      "samp_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false
+    }
   }
 }
